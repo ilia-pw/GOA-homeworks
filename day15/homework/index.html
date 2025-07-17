@@ -1,0 +1,58 @@
+<!-- 2) გააკეთეთ Single-Page ვებსაიტი ნებისმიერ
+ თემატიკაზე. საიტზე დაამატეთ მინიმუმ 3 განყოფილება/სექცია. საიტის თავში 
+ დაამატეთ ნავიგაცია, სადაც ჩასვამთ ლინკებს. ლინკებზე დაჭერისას კი საიტის 
+ სხვადასხვა სექციებზე უნდა გადაჰყავდეს მომხმარებელი. საიტის ბოლოს დაამატეთ "Go up" ღილაკი.
+
+3) ჩამოწერეთ ყველა საჭირო ატრიბუტი და თეგი, რომელიც სრულყოფილი
+ ფორმის შექმნისთვისაა საჭირო, თითოეულს კი აუცილებლად მიუწერეთ დანიშნულებაც.
+
+4) შექმენით Facebook-ის სარეგისტრაციო ფორმა და დაამატეთ Username, 
+Email, Password ველები. დამატებით დაამატეთ Checkbox-ები, სადაც მომხმარებელს შეეძლება მონიშნოს:
+• I am not a bot.
+• I agree to the Terms & Conditions.
+• Keep me signed in.
+
+5) შექმენით ფორმა, რომლის საშუალებითაც მომხმარებელი ტაქსის გამოიძახებს. ფორმა ასეთი ტიპის უნდა იყოს:
+
+მომხმარებელს უნდა შეეძლოს თავისი სახელისა და გვარის მითითება, ასევე 
+მობილურის ნომერის შეყვანა. საიტზე ასევე დაამატეთ Input-ის ველი, სადაც მომხმარებელმა 
+უნდა შემოიტანოს ის მისამართი, სადაც სურს წასვლა და დრო - თუ რომელი საათისთვის სურს ტაქსის შეკვეთა. 
+ფორმის ბოლოს დაამატეთ ერთი ტექსტური ველი, სადაც User-ი დაწერს შეფასებას ანუ reviews.
+
+(ფორმაში თქვენი ფანტაზიით დაამატეთ განსხვავებული Input-ის ტიპები. მაგ. checkbox, radio...)
+
+6) Paint-ის გამოყენებით სქემატურად დახაზეთ თუ როგორ იგზავნება Request-ები Webserver-ებთან და რა პრინციპით ბრუნდება პასუხი.
+
+7) Paint-ის გამოყენებით სქემატურად დახაზეთ თუ როგორ ინახება მომხმარებლის მიერ გაგზავნილი 
+მონაცემები (სახელი, იმეილი, პაროლი და ა.შ) Backend-ში. დახაზეთ შესაბამისი ცხრილი.
+
+8) შემდეგი გაკვეთილისთვის აუცილებლად ყველა ჯგუფს მზად ჰქონდეს ჯგუფური პროექტები, რადგან გვექნება პროექტების წარდგენა. -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <input type="text" placeholder="name" class="bb">
+        <input type="number" placeholder="number" class="bb">
+        <input type="text" placeholder="addres" class="bb">
+        <input type="text" placeholder="time" class="bb">
+        <input type="text" placeholder="reviews" class="bb">
+
+    </div>
+
+    <input type="checkbox" id="a1">
+    <label for="a1">I am not a bot</label><br>
+    <input type="checkbox" id="a2">
+    <label for="a2">I agree to the Terms & Conditions</label><br>
+    <input type="checkbox" id="a3">
+    <label for="a3">Keep me signed in</label>
+</body>
+</html>
