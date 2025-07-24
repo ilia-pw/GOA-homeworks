@@ -1,0 +1,38 @@
+#h1 {
+    text-align: center;
+    color: aqua;
+}
+
+body {
+    background-color: green;
+}
+
+
+h3 {
+    text-align: center;
+    border: solid 3px ;
+    color: brown;
+    border-radius: 5px;
+}
+
+
+#h2 {
+    color: red;
+}
+
+
+nav {
+    text-align: center;
+}
+
+#id {
+    text-align: center;
+}
+
+#a1 {
+    text-align: center;
+}
+
+#hh2 {
+    text-align: center;
+}
