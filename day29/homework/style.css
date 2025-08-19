@@ -1,0 +1,15 @@
+img {
+    border-radius: 5px;
+    border: solid black 2px;
+}
+
+button {
+    background-color: black;
+    color:  red;
+    border-radius: 5px;
+}
+
+#bt {
+    color: white;
+    border-radius: 3px;
+}

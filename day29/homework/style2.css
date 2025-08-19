@@ -1,0 +1,28 @@
+.ic {
+    border: solid red 3px;
+    width: 150px;
+    height: 150px;
+}
+
+img {
+    border: double purple 3px;
+    width: 200px;
+    height: 200px;
+}
+
+.p1 {
+    color: blue;
+    text-align: center;
+}
+
+p {
+    color: green;
+    text-align: center;
+}
+
+
+h1 {
+    border: solid blue 3px;
+    color: purple;
+    text-align: center;
+}
