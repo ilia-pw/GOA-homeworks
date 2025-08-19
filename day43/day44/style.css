@@ -1,0 +1,8 @@
+p {
+    text-decoration: dashed; ხაზოვანი
+    text-decoration: dotted;წერტილოვანი
+    text-decoration: line-through;ხაზს უსვამს ტექსტს
+    text-decoration: underline;ტექსტს ქვემოტ უსვავს ხაზს
+    text-decoration: overline; ტექსტს ზემოთ უსვამს ხაზს
+    text-decoration: wavy;ტალღოვან ხაზს უწერს
+}

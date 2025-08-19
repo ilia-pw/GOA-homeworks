@@ -1,0 +1,19 @@
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    color: red;
+    font-size: large;
+    font-weight: 700;
+}
+
+a:active {
+    color: black;
+}
+
+a:visited {
+    color: purple;
+    font-weight: 900;
+}
